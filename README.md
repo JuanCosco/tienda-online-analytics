@@ -23,7 +23,7 @@ Este repo consume directamente el schema `public` generado por el API y produce 
 ## Arquitectura
 
 public (backend) analytics (dbt output)
-
+```text
 ├── orders → ├── stg_orders
 ├── order_items → ├── stg_order_items
 ├── books → ├── stg_books
@@ -31,7 +31,7 @@ public (backend) analytics (dbt output)
 └── users ├── ventas_por_categoria
 ├── libros_mas_vendidos
 └── resumen_ordenes
-
+```
 ## Modelos
 
 ### Staging
